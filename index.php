@@ -14,6 +14,11 @@
 	</div>
 	<div class="info">
 		<div class="content-text">
+		<?php
+		if (!isset($_GET["id"])) echo "<p> </p>";
+		elseif ($_GET['id']==1) include('english.txt');
+		elseif ($_GET['id']==2) include('russian.txt');
+		?>
 		</div>
 	</div>
 </body>

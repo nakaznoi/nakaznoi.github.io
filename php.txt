@@ -1,5 +1,0 @@
-<?php
-if (!isset($_GET["id"])) echo "<p> </p>";
-elseif ($_GET['id']==1) include('english.txt');
-elseif ($_GET['id']==2) include('russian.txt');
-?>
